@@ -8,4 +8,9 @@ func Test(t *testing.T) {
 				if diff != 1 {
 								t.Fatal(diff)
 				}
+
+				quot := Div(3, 2)
+				if quot != 1 {
+								t.Fatal(diff)
+				}
 }

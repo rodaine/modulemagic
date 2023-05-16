@@ -8,3 +8,8 @@ import (
 func Sub(a, b int) int {
 				return modulemagic.Add(a, foo.Negate(b))
 }
+
+func Div(a, b int) int {
+				r := a % b
+				return (a-r)/b
+}
